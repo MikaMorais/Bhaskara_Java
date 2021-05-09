@@ -1,0 +1,83 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: #1F2229;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#card {
+    background: #fff;
+
+    width: 600px;
+
+    padding: 20px;
+    margin-top: 70px;
+    
+    box-shadow: 0 15px 25px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    margin-top: 15px;
+    width: 300px;
+}
+
+form {
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-field {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+#btn-calc {
+    background-color: #4CAF50;
+    color: white;
+
+    width: 300px;
+    margin: 4px 2px;
+    padding: 16px 32px;
+
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#btn-calc:hover {opacity: 0.8}
