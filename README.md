@@ -19,14 +19,23 @@ Aplicação criada como um desafio para testar o conhecimento sobre java web.
 
 ## Tecnologias
 
-* Java
-* Html
-* Css
+* Java (jsp)
+* HTML
+* CSS
 
-**Tela Inicial**
+### Tela Inicial
 
-![Home](https://i.imgur.com/GPbbzPO.png)
+![Home](https://imgur.com/6Z50mT4.png)
+![Home2](https://imgur.com/YWeGl1u.png)
 
-**Resultado**
 
-![Result](https://i.imgur.com/mogNNgC.png)
+### Resultados
+
+![Result](https://imgur.com/0o8dU4d.png)
+
+
+### Warning
+
+Caso seja introduzido o valor de 0(zero) na variável "a"
+
+![Warning](https://imgur.com/Ad31kop.png)
